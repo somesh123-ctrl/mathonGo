@@ -1,4 +1,4 @@
-Sure, here's a basic README.md file for your GitHub repository:
+
 
 ```
 # MathonGo
