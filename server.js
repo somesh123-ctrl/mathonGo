@@ -16,10 +16,13 @@ app.use(bodyParser.json());
 dotenv.config();
 app.use(cors());
 
-mongoose.connect("mongodb://localhost:27017/emailListApp", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(
+  "mongodb+srv://someshshirpe123:XU3w9X8q3ZKAUkkV@cluster0.y66btys.mongodb.net/MathonGo",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+);
 
 const listSchema = new mongoose.Schema({
   title: String,
